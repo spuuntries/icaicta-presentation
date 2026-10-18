@@ -1,0 +1,24 @@
+[package]
+name = "if-presentation"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+authors = ["Informatics ITS", "spuun"]
+license = "MIT"
+description = "A clean and modern Typst presentation template for academic paper presentations, conferences, and seminars, themed after ITS Departemen Teknik Informatika."
+repository = "https://github.com/spuuntries/if-presentation"
+keywords = [
+    "presentation",
+    "touying",
+    "slides",
+    "academic",
+    "conference",
+    "its",
+    "informatika",
+    "icaicta",
+]
+compiler = "0.13.0"
+
+[template]
+path = "template"
+entrypoint = "slides.typ"
+thumbnail = "thumbnail.png"
